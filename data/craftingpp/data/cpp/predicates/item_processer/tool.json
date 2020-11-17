@@ -1,0 +1,105 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "inverted",
+			"term": {
+				"condition": "alternative",
+				"terms": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "reference",
+							"name": "cpp:item_processer/tool/shovel"
+						}
+					},
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "reference",
+							"name": "cpp:item_processer/tool/shovel_item"
+						}
+					}
+				]
+			}
+		},
+		{
+			"condition": "inverted",
+			"term": {
+				"condition": "alternative",
+				"terms": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "reference",
+							"name": "cpp:item_processer/tool/hoe"
+						}
+					},
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "location_check",
+							"predicate": {
+								"block": {
+									"nbt": "{Items:[{Slot:12b,id:'minecraft:coarse_dirt'}]}"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		{
+			"condition": "inverted",
+			"term": {
+				"condition": "alternative",
+				"terms": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "reference",
+							"name": "cpp:item_processer/tool/axe"
+						}
+					},
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "reference",
+							"name": "cpp:item_processer/tool/axe_item"
+						}
+					}
+				]
+			}
+		},
+		{
+			"condition": "inverted",
+			"term": {
+				"condition": "alternative",
+				"terms": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "reference",
+							"name": "cpp:item_processer/tool/pickaxe"
+						}
+					},
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "reference",
+							"name": "cpp:item_processer/tool/pickaxe_item"
+						}
+					}
+				]
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:3b,id:'minecraft:shears'},{Slot:12b,id:'minecraft:pumpkin'}]}"
+				}
+			}
+		}
+	]
+}

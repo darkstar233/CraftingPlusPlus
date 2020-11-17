@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_star",
+			"nbt":"{CustomModelData:12976020}"
+		},
+		"title":{
+			"translate": "advancements.cpp.forgive.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.forgive.description"
+		}
+	},
+	"parent": "cpp:gardener",
+	"criteria": {
+		"green_hat": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head":{
+									"nbt": "{id:'cpp:green_hat'}"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

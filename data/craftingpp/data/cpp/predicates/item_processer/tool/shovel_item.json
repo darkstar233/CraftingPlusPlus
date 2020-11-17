@@ -1,0 +1,53 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:grass_block'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:mycelium'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:podzol'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:gravel'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:clay'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:snow_block'}]}"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"criteria": {
+		"bread": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:bread"
+				}
+			}
+		},
+		"baked_potato": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:baked_potato"
+				}
+			}
+		},
+		"burger": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:burger'}"
+				}
+			}
+		},
+		"pizza": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:pizza'}"
+				}
+			}
+		},
+		"sushi": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:sushi'}"
+				}
+			}
+		},
+		"stargazy_pie": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:stargazy_pie'}"
+				}
+			}
+		},
+		"toffee_apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:toffee_apple'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"bread",
+			"baked_potato",
+			"burger",
+			"pizza",
+			"sushi",
+			"stargazy_pie",
+			"toffee_apple"
+		]
+	],
+	"rewards":{
+		"function": "cpp:food/neg5"
+	}
+}

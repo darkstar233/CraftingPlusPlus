@@ -1,0 +1,33 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"offsetX": 1,
+			"condition": "location_check",
+			"predicate": {
+				"tag": "cpp:zombie_can_destroy"
+			}
+		},
+		{
+			"offsetX": -1,
+			"condition": "location_check",
+			"predicate": {
+				"tag": "cpp:zombie_can_destroy"
+			}
+		},
+		{
+			"offsetY": 1,
+			"condition": "location_check",
+			"predicate": {
+				"tag": "cpp:zombie_can_destroy"
+			}
+		},
+		{
+			"offsetY": -1,
+			"condition": "location_check",
+			"predicate": {
+				"tag": "cpp:zombie_can_destroy"
+			}
+		}
+	]
+}

@@ -1,0 +1,202 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"_comment": "煤粒",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:charcoal'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "煤粒",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:coal'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "月之碎片",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:moon_stone'}}]}"
+				}
+			}
+		},
+		{
+			"_comment": "日之碎片",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:sun_stone'}}]}"
+				}
+			}
+		},
+		{
+			"_comment": "花草种子",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:lycoris_radiata'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:trifolium'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:blackthorn'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:cattail'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:marigold'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:hibiscus'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:hyacinth'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:calamus'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:wild_lilium'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:bauhinia'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:fluffy_grass'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:gerbera'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:esparto'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:glow_forsythia'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:glazed_shade'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:stelera'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:forage_crystal'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:isorchid'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:burning_chrysanthe'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{id:'cpp:oxalis'}}]}"
+				}
+			}
+		}
+	]
+}

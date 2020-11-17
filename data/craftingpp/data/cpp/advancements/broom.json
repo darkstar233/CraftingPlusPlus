@@ -1,0 +1,51 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carrot_on_a_stick",
+			"nbt":"{CustomModelData:12970066}"
+		},
+		"title":{
+			"translate": "advancements.cpp.broom.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.broom.description"
+		}
+	},
+	"parent": "cpp:root",
+	"criteria": {
+		"broom": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "alternative",
+						"terms": [
+							{
+								"condition": "entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"mainhand":{
+											"nbt": "{id:'cpp:broom'}"
+										}
+									}
+								}
+							},
+							{
+								"condition": "entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"offhand":{
+											"nbt": "{id:'cpp:broom'}"
+										}
+									}
+								}
+							}
+						]
+					}					
+				]
+			}
+		}
+	}
+}

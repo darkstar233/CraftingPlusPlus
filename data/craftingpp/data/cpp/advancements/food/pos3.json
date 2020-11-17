@@ -1,0 +1,38 @@
+{
+	"criteria": {
+		"beef": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:beef"
+				}
+			}
+		},
+		"porkchop": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:porkchop"
+				}
+			}
+		},
+		"honey_bottle": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:honey_bottle"
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function": "cpp:food/pos3"
+	},
+	"requirements":[
+		[
+			"beef",
+			"porkchop",
+			"honey_bottle"
+		]
+	]
+}

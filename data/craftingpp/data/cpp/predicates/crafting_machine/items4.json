@@ -1,0 +1,364 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"_comment": "雪地靴",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:leather'},{Slot:3b,id:'minecraft:leather'},{Slot:10b,id:'minecraft:brown_dye'},{Slot:12b,id:'minecraft:brown_dye'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "雪地靴",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:10b,id:'minecraft:leather'},{Slot:12b,id:'minecraft:leather'},{Slot:19b,id:'minecraft:brown_dye'},{Slot:21b,id:'minecraft:brown_dye'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "肥料",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:bone_meal'},{id:'minecraft:rotten_flesh'},{id:'minecraft:charcoal'},{id:'minecraft:gunpowder'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "圣诞花",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:poppy'},{tag:{id:'cpp:lycoris_radiata'}},{tag:{id:'cpp:glazed_shade'}},{tag:{id:'cpp:marigold'}}]}"
+				}
+			}
+		},
+		{
+			"_comment": "仰望星空派",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:cooked_porkchop'},{id:'minecraft:cooked_salmon'},{id:'minecraft:brown_mushroom'},{id:'minecraft:wheat'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "新春装饰",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:feather'},{id:'minecraft:black_dye'},{id:'minecraft:red_dye'},{id:'minecraft:paper'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "花草合成迷之炖菜",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:lycoris_radiata'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:trifolium'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:blackthorn'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:cattail'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:marigold'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:hibiscus'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:hyacinth'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:calamus'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:wild_lilium'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:bauhinia'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:fluffy_grass'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:gerbera'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:esparto'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:glow_forsythia'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:glazed_shade'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:stelera'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:forage_crystal'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:isorchid'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:burning_chrysanthe'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_mushroom'},{id:'minecraft:brown_mushroom'},{id:'minecraft:bowl'},{tag:{id:'cpp:oxalis'}}]}"
+				}
+			}
+		},
+		{
+			"_comment": "旗帜",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_banner'},{id:'minecraft:peony'},{tag:{id:'cpp:burning_chrysanthe'}},{tag:{id:'cpp:marigold'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:white_banner'},{id:'minecraft:rose_bush'},{tag:{id:'cpp:hyacinth'}},{tag:{id:'cpp:fluffy_grass'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_banner'},{id:'minecraft:sunflower'},{tag:{id:'cpp:hyacinth'}},{tag:{id:'cpp:fluffy_grass'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_banner'},{id:'minecraft:cornflower'},{tag:{id:'cpp:hyacinth'}},{tag:{id:'cpp:fluffy_grass'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:white_banner'},{id:'minecraft:poppy'},{tag:{id:'cpp:hyacinth'}},{tag:{id:'cpp:fluffy_grass'}}]}"
+				}
+			}
+		},
+		{
+			"_comment": "标志",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:painting'},{tag:{id:'cpp:blackthorn'}},{tag:{id:'cpp:trifolium'}},{tag:{id:'cpp:esparto'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:painting'},{tag:{id:'cpp:blackthorn'}},{tag:{id:'cpp:trifolium'}},{tag:{id:'cpp:cattail'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:painting'},{tag:{id:'cpp:blackthorn'}},{tag:{id:'cpp:trifolium'}},{tag:{id:'cpp:isorchid'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:painting'},{tag:{id:'cpp:blackthorn'}},{tag:{id:'cpp:trifolium'}},{tag:{id:'cpp:bauhinia'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:painting'},{tag:{id:'cpp:blackthorn'}},{tag:{id:'cpp:trifolium'}},{tag:{id:'cpp:hyacinth'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:painting'},{tag:{id:'cpp:blackthorn'}},{tag:{id:'cpp:trifolium'}},{tag:{id:'cpp:lycoris_radiata'}}]}"
+				}
+			}
+		},
+		{
+			"_comment": "番茄酱",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{dict:['salt']}},{id:'minecraft:sugar'},{tag:{id:'cpp:tomato'}},{id:'minecraft:sweet_berries'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "草莓果酱",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{dict:['salt']}},{id:'minecraft:sugar'},{tag:{id:'cpp:strawberry'}},{id:'minecraft:sweet_berries'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "蓝莓果酱",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{dict:['salt']}},{id:'minecraft:sugar'},{tag:{id:'cpp:blueberry'}},{id:'minecraft:sweet_berries'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "香橙果酱",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{dict:['salt']}},{id:'minecraft:sugar'},{tag:{id:'cpp:orange'}},{id:'minecraft:sweet_berries'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "樱桃果酱",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{dict:['salt']}},{id:'minecraft:sugar'},{tag:{id:'cpp:cherry'}},{id:'minecraft:sweet_berries'}]}"
+				}
+			}
+		},
+		{
+			"_comment": "苹果酱",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{dict:['salt']}},{id:'minecraft:sugar'},{tag:{id:'minecraft:apple'}},{id:'minecraft:sweet_berries'}]}"
+				}
+			}
+		}
+	]
+}

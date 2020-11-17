@@ -1,0 +1,41 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.1
+						}
+					],
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12970000,cpp_skyisland_drop:1b,cpp_clear:1b,cpp_skyisland_dropId:'minecraft:bone_meal'}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.1
+						}
+					],
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:12970000,cpp_skyisland_drop:1b,cpp_clear:1b,cpp_skyisland_dropId:'minecraft:string'}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

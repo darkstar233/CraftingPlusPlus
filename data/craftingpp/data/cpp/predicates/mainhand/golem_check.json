@@ -1,0 +1,126 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "inverted",
+			"term": {
+				"condition": "alternative",
+				"terms": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand":{
+										"nbt": "{id:'cpp:golem_farmer'}"
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "location_check",
+							"predicate": {
+								"block": {
+									"tag": "cpp:golem_motion_blocks"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		{
+			"condition": "inverted",
+			"term": {
+				"condition": "alternative",
+				"terms": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand":{
+										"nbt": "{id:'cpp:golem_fisher'}"
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "location_check",
+							"predicate": {
+								"block": {
+									"block": "minecraft:water"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		{
+			"condition": "inverted",
+			"term": {
+				"condition": "alternative",
+				"terms": [
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand":{
+										"nbt": "{id:'cpp:golem_miner'}"
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "inverted",
+						"term": {
+							"condition": "location_check",
+							"predicate": {
+								"block": {
+									"tag": "cpp:golem_motion_blocks"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand":{
+						"nbt": "{id:'cpp:golem_warrior'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand":{
+						"nbt": "{id:'cpp:golem_herder'}"
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.snow_boots\"}',color:8404992},id:'cpp:snow_boots'}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

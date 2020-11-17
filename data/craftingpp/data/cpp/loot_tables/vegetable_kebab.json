@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_cod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.vegetable_kebab\"}',Lore:['[{\"italic\":false,\"translate\":\"effect.minecraft.jump_boost\",\"color\":\"blue\"},{\"text\":\" (0:30)\"}]']},id:'cpp:vegetable_kebab',CustomModelData:12970005}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

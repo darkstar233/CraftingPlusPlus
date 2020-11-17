@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.black_framed_glasses\"}',color:16777215},id:'cpp:black_framed_glasses',dict:['head_decor'],CustomModelData:12976015,cppHatSlot:'hand'}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

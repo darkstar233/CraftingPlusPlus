@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.mooshroom_head.red\"}'},id:'cpp:mooshroom_head.red',dict:['head_decor','mooshroom_head'],CustomModelData:12976204}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

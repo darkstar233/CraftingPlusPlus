@@ -1,0 +1,16 @@
+[
+	{
+		"condition": "entity_properties",
+		"entity": "this",
+		"predicate": {
+			"nbt": "{ActiveEffects:[{Id:25b}]}"
+		}
+	},
+	{
+		"condition": "entity_scores",
+		"entity": "this",
+		"scores": {
+			"cppSneakTime": 1
+		}
+	}
+]

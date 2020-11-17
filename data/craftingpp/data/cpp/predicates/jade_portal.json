@@ -1,0 +1,13 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "reference",
+			"name": "cpp:jade_portal_ew"
+		},
+		{
+			"condition": "reference",
+			"name": "cpp:jade_portal_sn"
+		}
+	]
+}

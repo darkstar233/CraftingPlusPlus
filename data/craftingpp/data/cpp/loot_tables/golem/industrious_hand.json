@@ -1,0 +1,255 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:wheat"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:golem/wheat"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:beetroots"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:golem/beetroots"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:carrots"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:golem/carrots"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:potatoes"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:golem/potatoes"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:bamboo"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:bamboo",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 1,
+										"max": 2
+									}
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:sunflower"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:sunflower"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:lilac"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:lilac"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:rose_bush"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:rose_bush"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:peony"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:peony"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:cocoa"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:golem/cocoa"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:sweet_berry_bush"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:sweet_berries",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 1,
+										"max": 2
+									}
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:kelp"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:kelp",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 5,
+										"max": 7
+									}
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:weeping_vines"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:weeping_vines",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 1,
+										"max": 11
+									}
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"block": "minecraft:twisting_vines"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:twisting_vines",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 1,
+										"max": 11
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

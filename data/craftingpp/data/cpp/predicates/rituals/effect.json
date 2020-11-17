@@ -1,0 +1,117 @@
+{
+	"condition": "alternative",
+	"terms":[
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_lightness'}},{Slot:2b,tag:{id:'cpp:agentia_of_lightness'}},{Slot:6b,tag:{id:'cpp:agentia_of_lightness'}},{Slot:8b,tag:{id:'cpp:agentia_of_lightness'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_eyesight'}},{Slot:2b,tag:{id:'cpp:agentia_of_eyesight'}},{Slot:6b,tag:{id:'cpp:agentia_of_eyesight'}},{Slot:8b,tag:{id:'cpp:agentia_of_eyesight'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_fire_shield'}},{Slot:2b,tag:{id:'cpp:agentia_of_fire_shield'}},{Slot:6b,tag:{id:'cpp:agentia_of_fire_shield'}},{Slot:8b,tag:{id:'cpp:agentia_of_fire_shield'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_waterless'}},{Slot:2b,tag:{id:'cpp:agentia_of_waterless'}},{Slot:6b,tag:{id:'cpp:agentia_of_waterless'}},{Slot:8b,tag:{id:'cpp:agentia_of_waterless'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_transparentness'}},{Slot:2b,tag:{id:'cpp:agentia_of_transparentness'}},{Slot:6b,tag:{id:'cpp:agentia_of_transparentness'}},{Slot:8b,tag:{id:'cpp:agentia_of_transparentness'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_bounce'}},{Slot:2b,tag:{id:'cpp:agentia_of_bounce'}},{Slot:6b,tag:{id:'cpp:agentia_of_bounce'}},{Slot:8b,tag:{id:'cpp:agentia_of_bounce'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_agileness'}},{Slot:2b,tag:{id:'cpp:agentia_of_agileness'}},{Slot:6b,tag:{id:'cpp:agentia_of_agileness'}},{Slot:8b,tag:{id:'cpp:agentia_of_agileness'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_sharpness'}},{Slot:2b,tag:{id:'cpp:agentia_of_sharpness'}},{Slot:6b,tag:{id:'cpp:agentia_of_sharpness'}},{Slot:8b,tag:{id:'cpp:agentia_of_sharpness'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_rejuveness'}},{Slot:2b,tag:{id:'cpp:agentia_of_rejuveness'}},{Slot:6b,tag:{id:'cpp:agentia_of_rejuveness'}},{Slot:8b,tag:{id:'cpp:agentia_of_rejuveness'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_extremeness'}},{Slot:2b,tag:{id:'cpp:agentia_of_extremeness'}},{Slot:6b,tag:{id:'cpp:agentia_of_extremeness'}},{Slot:8b,tag:{id:'cpp:agentia_of_extremeness'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_shield'}},{Slot:2b,tag:{id:'cpp:agentia_of_shield'}},{Slot:6b,tag:{id:'cpp:agentia_of_shield'}},{Slot:8b,tag:{id:'cpp:agentia_of_shield'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_tide'}},{Slot:2b,tag:{id:'cpp:agentia_of_tide'}},{Slot:6b,tag:{id:'cpp:agentia_of_tide'}},{Slot:8b,tag:{id:'cpp:agentia_of_tide'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:agentia_of_chain'}},{Slot:2b,tag:{id:'cpp:agentia_of_chain'}},{Slot:6b,tag:{id:'cpp:agentia_of_chain'}},{Slot:8b,tag:{id:'cpp:agentia_of_chain'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:0b,tag:{id:'cpp:cold_drink'}},{Slot:2b,tag:{id:'cpp:cold_drink'}},{Slot:6b,tag:{id:'cpp:cold_drink'}},{Slot:8b,tag:{id:'cpp:cold_drink'}}]}"
+				}
+			}
+		}
+	]
+}

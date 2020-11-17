@@ -1,0 +1,75 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"_comment": "附魔室",
+					"weight": 1,
+					"type": "minecraft:item",
+					"name": "minecraft:enchanting_table"
+				},
+				{
+					"_comment": "图腾柱",
+					"weight": 1,
+					"type": "minecraft:item",
+					"name": "minecraft:stone_bricks"
+				},
+				{
+					"_comment": "水果树",
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "minecraft:apple"
+				},
+				{
+					"_comment": "矿石树",
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ore"
+				},
+				{
+					"_comment": "羊毛树",
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "minecraft:white_wool"
+				},
+				{
+					"_comment": "樱花树",
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "minecraft:pink_wool"
+				},
+				{
+					"_comment": "小麦田",
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "minecraft:wheat"
+				},
+				{
+					"_comment": "甜菜根田",
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot"
+				},
+				{
+					"_comment": "胡萝卜田",
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "minecraft:carrot"
+				},
+				{
+					"_comment": "马铃薯田",
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "minecraft:potato"
+				},
+				{
+					"_comment": "花草丛",
+					"weight": 60,
+					"type": "minecraft:item",
+					"name": "minecraft:grass"
+				}
+			]
+		}
+	]
+}

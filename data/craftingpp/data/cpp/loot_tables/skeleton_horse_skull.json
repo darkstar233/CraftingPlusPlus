@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.skeleton_horse_skull\"}'},id:'cpp:skeleton_horse_skull',dict:['head_decor'],CustomModelData:12976247}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

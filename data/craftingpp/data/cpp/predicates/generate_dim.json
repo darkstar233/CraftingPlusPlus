@@ -1,0 +1,23 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "location_check",
+			"predicate":{
+				"dimension": "minecraft:the_nether"
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate":{
+				"dimension": "cpp:flower"
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate":{
+				"dimension": "cpp:jade"
+			}
+		}
+	]
+}

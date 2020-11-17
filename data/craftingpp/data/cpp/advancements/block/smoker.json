@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"smoker": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:smoker"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:block/reset/smoker"
+	}
+}

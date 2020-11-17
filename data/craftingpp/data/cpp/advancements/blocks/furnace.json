@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"furnace": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:furnace"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:blocks/furnace"
+	}
+}

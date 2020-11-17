@@ -1,0 +1,202 @@
+[
+	{
+		"condition": "inverted",
+		"term": {
+			"condition": "entity_scores",
+			"entity": "this",
+			"scores": {
+				"cppChainDam": 0
+			}
+		}
+	},
+	{
+		"condition": "alternative",
+		"terms": [
+			{
+				"condition": "inverted",
+				"term": {
+					"condition": "entity_scores",
+					"entity": "this",
+					"scores": {
+						"cppChainDam": 1
+					}
+				}
+			},
+			{
+				"condition": "random_chance",
+				"chance": 0.5
+			}
+		]
+	},
+	{
+		"condition": "alternative",
+		"terms": [
+			{
+				"condition": "inverted",
+				"term": {
+					"condition": "entity_scores",
+					"entity": "this",
+					"scores": {
+						"cppChainDam": 2
+					}
+				}
+			},
+			{
+				"condition": "random_chance",
+				"chance": 0.66666667
+			}
+		]
+	},
+	{
+		"condition": "alternative",
+		"terms": [
+			{
+				"condition": "inverted",
+				"term": {
+					"condition": "entity_scores",
+					"entity": "this",
+					"scores": {
+						"cppChainDam": 3
+					}
+				}
+			},
+			{
+				"condition": "random_chance",
+				"chance": 0.75
+			}
+		]
+	},
+	{
+		"condition": "alternative",
+		"terms": [
+			{
+				"condition": "inverted",
+				"term": {
+					"condition": "entity_scores",
+					"entity": "this",
+					"scores": {
+						"cppChainDam": 4
+					}
+				}
+			},
+			{
+				"condition": "random_chance",
+				"chance": 0.8
+			}
+		]
+	},
+	{
+		"condition": "alternative",
+		"terms": [
+			{
+				"condition": "inverted",
+				"term": {
+					"condition": "entity_scores",
+					"entity": "this",
+					"scores": {
+						"cppChainDam": 5
+					}
+				}
+			},
+			{
+				"condition": "random_chance",
+				"chance": 0.83333333
+			}
+		]
+	},
+	{
+		"condition": "alternative",
+		"terms": [
+			{
+				"condition": "inverted",
+				"term": {
+					"condition": "entity_scores",
+					"entity": "this",
+					"scores": {
+						"cppChainDam": 6
+					}
+				}
+			},
+			{
+				"condition": "random_chance",
+				"chance": 0.85714286
+			}
+		]
+	},
+	{
+		"condition": "alternative",
+		"terms": [
+			{
+				"condition": "inverted",
+				"term": {
+					"condition": "entity_scores",
+					"entity": "this",
+					"scores": {
+						"cppChainDam": 7
+					}
+				}
+			},
+			{
+				"condition": "random_chance",
+				"chance": 0.875
+			}
+		]
+	},
+	{
+		"condition": "alternative",
+		"terms": [
+			{
+				"condition": "inverted",
+				"term": {
+					"condition": "entity_scores",
+					"entity": "this",
+					"scores": {
+						"cppChainDam": 8
+					}
+				}
+			},
+			{
+				"condition": "random_chance",
+				"chance": 0.88888889
+			}
+		]
+	},
+	{
+		"condition": "alternative",
+		"terms": [
+			{
+				"condition": "inverted",
+				"term": {
+					"condition": "entity_scores",
+					"entity": "this",
+					"scores": {
+						"cppChainDam": 9
+					}
+				}
+			},
+			{
+				"condition": "random_chance",
+				"chance": 0.9
+			}
+		]
+	},
+	{
+		"condition": "alternative",
+		"terms": [
+			{
+				"condition": "inverted",
+				"term": {
+					"condition": "entity_scores",
+					"entity": "this",
+					"scores": {
+						"cppChainDam": 10
+					}
+				}
+			},
+			{
+				"condition": "random_chance",
+				"chance": 0.90909091
+			}
+		]
+	}
+]

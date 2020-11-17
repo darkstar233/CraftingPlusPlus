@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"caramel_pudding": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:caramel_pudding'}"
+				}
+			}
+		},
+		"honey_pancake": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:honey_pancake'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"caramel_pudding",
+			"honey_pancake"
+		]
+	],
+	"rewards":{
+		"function": "cpp:food/pos9"
+	}
+}

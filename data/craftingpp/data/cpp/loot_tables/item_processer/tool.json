@@ -1,0 +1,564 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/shovel"
+								},
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:12b,id:'minecraft:grass_block'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:12b,id:'minecraft:mycelium'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:12b,id:'minecraft:podzol'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:dirt"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/shovel"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:clay'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:clay_ball",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 4
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/shovel"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:gravel'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:flint"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/pickaxe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:gilded_blackstone'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:gold_nugget",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2.0,
+										"max": 5.0,
+										"type": "minecraft:uniform"
+									}
+							 	}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/shovel"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:snow_block'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:snowball",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 4
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/hoe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:coarse_dirt'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:dirt"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:melon'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:melon_slice",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 9
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:oak_log'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_oak_log"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:spruce_log'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_spruce_log"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:birch_log'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_birch_log"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:jungle_log'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_jungle_log"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:acacia_log'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_acacia_log"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:dark_oak_log'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_dark_oak_log"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:oak_wood'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_oak_wood"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:spruce_wood'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_spruce_wood"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:birch_wood'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_birch_wood"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:jungle_wood'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_jungle_wood"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:acacia_wood'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_acacia_wood"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:dark_oak_wood'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_dark_oak_wood"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:crimson_stem'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_crimson_stem"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:warped_stem'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_warped_stem"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:crimson_hyphae'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_crimson_hyphae"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/axe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:warped_hyphae'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stripped_warped_hyphae"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+												"name": "cpp:item_processer/tool/pickaxe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:stone'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:cobblestone"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/pickaxe"
+								},
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:12b,id:'minecraft:glowstone'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:glowstone_dust",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 4
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "reference",
+									"name": "cpp:item_processer/tool/pickaxe"
+								},
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:12b,id:'minecraft:crimson_nylium'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{Slot:12b,id:'minecraft:warped_nylium'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:netherrack"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:3b,id:'minecraft:shears'},{Slot:12b,id:'minecraft:pumpkin'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:item_processer/items/carved_pumpkin_and_4pumpkin_seeds"
+						}
+					]
+				}
+			]
+		}
+	]
+}

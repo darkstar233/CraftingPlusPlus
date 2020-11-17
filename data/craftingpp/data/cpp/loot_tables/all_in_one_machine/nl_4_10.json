@@ -1,0 +1,308 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:wing_of_sky'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_sky"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:heart_of_crystal'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_ocean"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:limb_of_ridge'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_ridge"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:soul_of_dirt'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_dirt"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:certification_of_earth'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_earth"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:nova_of_fire'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_fire"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:spirit_of_life'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_life"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:phantom_membrane'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_lightness"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:golden_carrot'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_eyesight"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:magma_cream'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_fire_shield"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:pufferfish'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_waterless"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:ender_pearl'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_transparentness"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:rabbit_foot'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_bounce"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:sugar'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_agileness"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:blaze_powder'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_sharpness"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:ghast_tear'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_rejuveness"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:glistering_melon_slice'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_blood"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:enchanted_gold'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_extremeness"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:enchanted_diamond'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_shield"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:nautilus_shell'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_tide"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:enchanted_iron'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:agentia_of_chain"
+						}
+					]
+				}
+			]
+		}
+	]
+}

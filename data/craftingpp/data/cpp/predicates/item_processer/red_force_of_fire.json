@@ -1,0 +1,922 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:dandelion'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:poppy'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:blue_orchid'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:allium'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:azure_bluet'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:red_tulip'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:orange_tulip'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:white_tulip'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:pink_tulip'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:oxeye_daisy'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:cornflower'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:lily_of_the_valley'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:wither_rose'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:sunflower'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:lilac'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:rose_bush'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:peony'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:potato'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:carrot'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:beetroot'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:lycoris_radiata'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:trifolium'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:blackthorn'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:cattail'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:marigold'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:hibiscus'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:hyacinth'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:calamus'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:wild_lilium'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:bauhinia'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:fluffy_grass'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:gerbera'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:esparto'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:glow_forsythia'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:glazed_shade'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:stelera'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:forage_crystal'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:isorchid'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:burning_chrysanthe'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:oxalis'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:calliopsis'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:cyclamen'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:iris'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:lilium_pumilum'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:snowdrop'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:narcissus'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:cole_flower'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:lupine'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:crocu'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:pansy'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:arabia_speedwell'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:silene_pendula'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:artemisia_argyi'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:sand'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:red_sand'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,tag:{id:'cpp:red_force_of_fire'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "alternative",
+			"terms": [
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:oak_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:spruce_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:birch_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:jungle_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:acacia_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:dark_oak_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:oak_log'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:spruce_log'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:birch_log'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:jungle_log'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:acacia_log'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:dark_oak_log'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_oak_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_spruce_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_birch_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_jungle_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_acacia_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_dark_oak_wood'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_oak_log'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_spruce_log'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_birch_log'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_jungle_log'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_acacia_log'}]}"
+						}
+					}
+				},
+				{
+					"condition": "location_check",
+					"predicate": {
+						"block": {
+							"nbt": "{Items:[{Slot:12b,id:'minecraft:stripped_dark_oak_log'}]}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:cactus'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:cobblestone'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:netherrack'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:stone_bricks'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:wet_sponge'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:clay'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:kelp'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:sea_pickle'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:white_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:orange_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:magenta_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:light_blue_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:yellow_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:lime_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:pink_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:gray_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:light_gray_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:cyan_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:purple_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:blue_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:brown_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:green_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:red_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:black_terracotta'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:iron_ore'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:gold_ore'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:quartz_block'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:sandstone'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:red_sandstone'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:stone'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:ancient_debris'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:nether_gold_ore'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:polished_blackstone_bricks'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:12b,id:'minecraft:nether_bricks'}]}"
+				}
+			}
+		}
+	]	
+}

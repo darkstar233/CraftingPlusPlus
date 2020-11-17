@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" d ",
+		"ded",
+		" d "
+	],
+	"key": {
+		"d": {
+			"item": "minecraft:dragon_head"
+		},
+		"e": {
+			"item": "minecraft:egg"
+		}
+	},
+	"result": {
+		"item": "minecraft:dragon_egg"
+	}
+}

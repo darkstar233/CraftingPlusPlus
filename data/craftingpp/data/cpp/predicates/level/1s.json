@@ -1,0 +1,29 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"player": {
+					"level": {
+						"min": 1
+					},
+					"gamemode": "survival"
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"player": {
+					"level": {
+						"min": 1
+					},
+					"gamemode": "adventure"
+				}
+			}
+		}
+	]
+}

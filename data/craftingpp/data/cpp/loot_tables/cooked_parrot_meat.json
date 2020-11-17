@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_chicken",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.cooked_parrot_meat\"}'},id:'cpp:cooked_parrot_meat',CustomModelData:12970001}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

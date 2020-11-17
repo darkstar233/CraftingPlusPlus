@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.enchanted_diamond\"}'},id:'cpp:enchanted_diamond',CustomModelData:12970023}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

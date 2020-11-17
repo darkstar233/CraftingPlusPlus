@@ -1,0 +1,575 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:lycoris_radiata'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:red_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:trifolium'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:white_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:blackthorn'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:black_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:cattail'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:marigold'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:orange_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:hibiscus'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:pink_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:hyacinth'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:blue_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:calamus'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:purple_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:wild_lilium'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:lime_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:bauhinia'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:magenta_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:fluffy_grass'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:feather"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:gerbera'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:gunpowder"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:esparto'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:string"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:glow_forsythia'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:glowstone_dust"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:glazed_shade'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:prismarine_shard"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:stelera'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:spider_eye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:forage_crystal'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:ghast_tear"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:isorchid'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:ender_pearl"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:burning_chrysanthe'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:blaze_powder"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:oxalis'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:slime_ball"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:calliopsis'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:cyclamen'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:magenta_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:iris'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:blue_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:lilium_pumilum'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:red_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:snowdrop'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:white_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:narcissus'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:light_gray_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:cole_flower'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:yellow_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:lupine'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:purple_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:crocu'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:purple_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:pansy'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:purple_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:arabia_speedwell'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:light_blue_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:silene_pendula'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:pink_dye"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "entity_properties",
+									"entity": "killer",
+									"predicate": {
+										"equipment": {
+											"head": {
+												"nbt": "{id:'cpp:artemisia_argyi'}"
+											}
+										}
+									}
+								}
+							],
+							"name": "minecraft:green_dye"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag":"{display:{Lore:['{\"italic\":false,\"translate\":\"item.cpp.github_logo\"}']},id:'cpp:shield_github',CustomModelData:12970007}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

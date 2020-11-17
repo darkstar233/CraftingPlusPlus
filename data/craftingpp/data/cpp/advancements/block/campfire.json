@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"campfire": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"tag": "minecraft:campfires"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cpp:block/reset/campfire"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand":{
+				"nbt": "{id:'cpp:high_temperature_plugin'}"
+			}
+		}
+	}
+}

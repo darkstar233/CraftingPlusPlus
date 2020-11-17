@@ -1,0 +1,128 @@
+{
+	"criteria": {
+		"raw_colorful_vegetable": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_colorful_vegetable'}"
+				}
+			}
+		},
+		"raw_braised_pork_with_potatoes": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_braised_pork_with_potatoes'}"
+				}
+			}
+		},
+		"raw_braised_beef_with_potatoes": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_braised_beef_with_potatoes'}"
+				}
+			}
+		},
+		"raw_rabbit_stew": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:raw_rabbit_stew'}"
+				}
+			}
+		},
+		"caramel_pudding": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:caramel_pudding'}"
+				}
+			}
+		},
+		"honey_pancake": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:honey_pancake'}"
+				}
+			}
+		},
+		"candied_haw": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:candied_haw'}"
+				}
+			}
+		},
+		"zongzi_boiled_egg": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi.boiled_egg'}"
+				}
+			}
+		},
+		"zongzi_chinese_date": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi.chinese_date'}"
+				}
+			}
+		},
+		"zongzi_cooked_porkchop": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi.cooked_porkchop'}"
+				}
+			}
+		},
+		"zongzi_salt": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi.salt'}"
+				}
+			}
+		},
+		"zongzi_soda_water": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi.soda_water'}"
+				}
+			}
+		},
+		"zongzi_honey_bottle": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi.honey_bottle'}"
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function": "cpp:food/add4"
+	},
+	"requirements": [
+		[
+			"raw_colorful_vegetable",
+			"raw_braised_pork_with_potatoes",
+			"raw_braised_beef_with_potatoes",
+			"raw_rabbit_stew",
+			"caramel_pudding",
+			"honey_pancake",
+			"candied_haw",
+			"zongzi_boiled_egg",
+			"zongzi_chinese_date",
+			"zongzi_cooked_porkchop",
+			"zongzi_salt",
+			"zongzi_soda_water",
+			"zongzi_honey_bottle"
+		]
+	]
+}

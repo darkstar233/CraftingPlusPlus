@@ -1,0 +1,101 @@
+{
+	"criteria": {
+		"baked_carrot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:baked_carrot'}"
+				}
+			}
+		},
+		"cupcake": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:cupcake'}"
+				}
+			}
+		},
+		"croissant": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:croissant'}"
+				}
+			}
+		},
+		"sandwich": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:sandwich'}"
+				}
+			}
+		},
+		"qingtuan": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:qingtuan'}"
+				}
+			}
+		},
+		"sakura_mochi": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:sakura_mochi'}"
+				}
+			}
+		},
+		"zongzi": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi'}"
+				}
+			}
+		},
+		"zongzi_boiled_egg": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi.boiled_egg'}"
+				}
+			}
+		},
+		"zongzi_salt": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi.salt'}"
+				}
+			}
+		},
+		"zongzi_soda_water": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi.soda_water'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"baked_carrot",
+			"cupcake",
+			"croissant",
+			"sandwich",
+			"qingtuan",
+			"sakura_mochi",
+			"zongzi",
+			"zongzi_boiled_egg",
+			"zongzi_salt",
+			"zongzi_soda_water"
+		]
+	],
+	"rewards":{
+		"function": "cpp:food/neg10"
+	}
+}

@@ -1,0 +1,33 @@
+[
+	{
+		"offsetX": -1,
+		"condition": "location_check", "predicate": { "block": { "tag": "cpp:coral_blocks" } }
+	},
+	{
+		"offsetX": -1, "offsetY": 1,
+		"condition": "location_check", "predicate": { "block": { "tag": "cpp:coral_blocks" } }
+	},
+	{
+		"offsetY": -1,
+		"condition": "location_check", "predicate": { "block": { "tag": "cpp:coral_blocks" } }
+	},
+	{
+		"offsetY": 2,
+		"condition": "location_check", "predicate": { "block": { "tag": "cpp:coral_blocks" } }
+	},
+	{
+		"offsetX": 1,
+		"condition": "location_check", "predicate": { "block": { "tag": "cpp:coral_blocks" } }
+	},
+	{
+		"offsetX": 1, "offsetY": 1,
+		"condition": "location_check", "predicate": { "block": { "tag": "cpp:coral_blocks" } }
+	},
+	{
+		"condition": "location_check", "predicate": { "block": { "tag": "cpp:air_and_fire" } }
+	},
+	{
+		"offsetY": 1,
+		"condition": "location_check", "predicate": { "block": { "tag": "cpp:air_and_fire" } }
+	}
+]

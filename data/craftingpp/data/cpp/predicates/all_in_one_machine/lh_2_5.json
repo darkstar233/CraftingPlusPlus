@@ -1,0 +1,213 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{id:'minecraft:apple'}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:apricot'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:banana'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:blueberry'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:cherry'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:chinese_date'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:coconut'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:golden_grape'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:grape'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:grapefruit'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:hawthorn'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:lemon'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:longan'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:loquat'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:lychee'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:mango'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:orange'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:payapa'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:peach'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:pear'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:persimmon'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:plum'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:pomegranate'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:strawberry'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:tomato'}}]}"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{tag:{id:'cpp:citrus'}}]}"
+				}
+			}
+		}
+	]
+}

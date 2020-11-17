@@ -1,0 +1,653 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"_comment":"多功能一体机",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:enchanted_iron'}},{Slot:2b,id:'minecraft:furnace'},{Slot:3b,tag:{id:'cpp:enchanted_iron'}},{Slot:10b,tag:{id:'cpp:enchanted_iron'}},{Slot:11b,id:'minecraft:barrel'},{Slot:12b,tag:{id:'cpp:enchanted_iron'}},{Slot:19b,tag:{id:'cpp:enchanted_gold'}},{Slot:20b,tag:{id:'cpp:soul_of_dirt'}},{Slot:21b,tag:{id:'cpp:enchanted_gold'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"交易机",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:enchanted_iron'}},{Slot:2b,tag:{id:'cpp:golem'}},{Slot:3b,tag:{id:'cpp:enchanted_iron'}},{Slot:10b,tag:{id:'cpp:enchanted_iron'}},{Slot:11b,id:'minecraft:barrel'},{Slot:12b,tag:{id:'cpp:enchanted_iron'}},{Slot:19b,id:'minecraft:emerald'},{Slot:20b,tag:{id:'cpp:certification_of_earth'}},{Slot:21b,id:'minecraft:emerald'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"生物投影仪",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:enchanted_iron'}},{Slot:2b,id:'minecraft:spawner'},{Slot:3b,tag:{id:'cpp:enchanted_iron'}},{Slot:10b,tag:{id:'cpp:enchanted_iron'}},{Slot:11b,id:'minecraft:barrel'},{Slot:12b,tag:{id:'cpp:enchanted_iron'}},{Slot:19b,tag:{id:'cpp:enchanted_diamond'}},{Slot:20b,tag:{id:'cpp:spirit_of_life'}},{Slot:21b,tag:{id:'cpp:enchanted_diamond'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"信标增强仪",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:enchanted_diamond'}},{Slot:2b,id:'minecraft:nether_star'},{Slot:3b,tag:{id:'cpp:enchanted_diamond'}},{Slot:10b,tag:{id:'cpp:enchanted_diamond'}},{Slot:11b,id:'minecraft:barrel'},{Slot:12b,tag:{id:'cpp:enchanted_diamond'}},{Slot:19b,id:'minecraft:netherite_block'},{Slot:20b,id:'minecraft:netherite_block'},{Slot:21b,id:'minecraft:netherite_block'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"金砧",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:enchanted_gold'}},{Slot:2b,id:'minecraft:anvil'},{Slot:3b,tag:{id:'cpp:enchanted_gold'}},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,id:'minecraft:barrel'},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,tag:{id:'cpp:enchanted_gold'}},{Slot:20b,tag:{id:'cpp:enchanted_gold'}},{Slot:21b,tag:{id:'cpp:enchanted_gold'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"物品处理机",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:enchanted_iron'}},{Slot:2b,id:'minecraft:crafting_table'},{Slot:3b,tag:{id:'cpp:enchanted_iron'}},{Slot:10b,tag:{id:'cpp:enchanted_iron'}},{Slot:11b,id:'minecraft:barrel'},{Slot:12b,tag:{id:'cpp:enchanted_iron'}},{Slot:19b,id:'minecraft:redstone'},{Slot:20b,id:'minecraft:furnace'},{Slot:21b,id:'minecraft:redstone'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"空白插件",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:paper'},{Slot:2b,id:'minecraft:paper'},{Slot:3b,id:'minecraft:paper'},{Slot:10b,id:'minecraft:paper'},{Slot:11b,id:'minecraft:redstone'},{Slot:12b,id:'minecraft:paper'},{Slot:19b,id:'minecraft:paper'},{Slot:20b,id:'minecraft:paper'},{Slot:21b,id:'minecraft:paper'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"低温插件",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,tag:{id:'cpp:empty_plugin'}},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,id:'minecraft:snow_block'},{Slot:20b,tag:{id:'cpp:heart_of_crystal'}},{Slot:21b,id:'minecraft:snow_block'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"低压插件",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,tag:{id:'cpp:empty_plugin'}},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,id:'minecraft:glass'},{Slot:20b,tag:{id:'cpp:wing_of_sky'}},{Slot:21b,id:'minecraft:glass'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"高温插件",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,tag:{id:'cpp:empty_plugin'}},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,id:'minecraft:lava_bucket'},{Slot:20b,tag:{id:'cpp:nova_of_fire'}},{Slot:21b,id:'minecraft:lava_bucket'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"高压插件",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,tag:{id:'cpp:empty_plugin'}},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,id:'minecraft:piston'},{Slot:20b,tag:{id:'cpp:limb_of_ridge'}},{Slot:21b,id:'minecraft:piston'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"圆石插件",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,tag:{id:'cpp:empty_plugin'}},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,id:'minecraft:stone_pickaxe'},{Slot:21b,tag:{id:'cpp:enchanted_iron'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"石头插件",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,tag:{id:'cpp:empty_plugin'}},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,id:'minecraft:iron_pickaxe'},{Slot:21b,tag:{id:'cpp:enchanted_iron'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"黑石插件",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,tag:{id:'cpp:empty_plugin'}},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,id:'minecraft:golden_pickaxe'},{Slot:21b,tag:{id:'cpp:enchanted_iron'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"地狱岩插件",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,tag:{id:'cpp:empty_plugin'}},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,id:'minecraft:ghast_tear'},{Slot:21b,tag:{id:'cpp:enchanted_iron'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"末地石插件",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,tag:{id:'cpp:empty_plugin'}},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,id:'minecraft:ender_pearl'},{Slot:21b,tag:{id:'cpp:enchanted_iron'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"附魔铁锭",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,id:'minecraft:experience_bottle'},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,id:'minecraft:experience_bottle'},{Slot:11b,id:'minecraft:iron_ingot'},{Slot:12b,id:'minecraft:experience_bottle'},{Slot:19b,id:'minecraft:experience_bottle'},{Slot:20b,id:'minecraft:experience_bottle'},{Slot:21b,id:'minecraft:experience_bottle'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"附魔金锭",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,id:'minecraft:experience_bottle'},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,id:'minecraft:experience_bottle'},{Slot:11b,id:'minecraft:gold_ingot'},{Slot:12b,id:'minecraft:experience_bottle'},{Slot:19b,id:'minecraft:experience_bottle'},{Slot:20b,id:'minecraft:experience_bottle'},{Slot:21b,id:'minecraft:experience_bottle'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"附魔钻石",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,id:'minecraft:experience_bottle'},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,id:'minecraft:experience_bottle'},{Slot:11b,id:'minecraft:diamond'},{Slot:12b,id:'minecraft:experience_bottle'},{Slot:19b,id:'minecraft:experience_bottle'},{Slot:20b,id:'minecraft:experience_bottle'},{Slot:21b,id:'minecraft:experience_bottle'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"垃圾桶",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:iron_ingot'},{Slot:2b,id:'minecraft:flint_and_steel'},{Slot:3b,id:'minecraft:iron_ingot'},{Slot:10b,id:'minecraft:iron_ingot'},{Slot:11b,id:'minecraft:lava_bucket'},{Slot:12b,id:'minecraft:iron_ingot'},{Slot:19b,id:'minecraft:iron_ingot'},{Slot:20b,id:'minecraft:iron_ingot'},{Slot:21b,id:'minecraft:iron_ingot'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"月之碎片",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{tag:{dict:['carbon_dust']}},{tag:{dict:['iron_dust']}},{tag:{dict:['gold_dust']}},{tag:{dict:['diamond_dust']}},{tag:{dict:['emerald_dust']}},{tag:{dict:['quartz_dust']}},{id:'minecraft:slime_ball'},{id:'minecraft:ghast_tear'},{id:'minecraft:ender_pearl'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"碎钻合成钻石",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{dict:['diamond_nugget']}},{Slot:2b,tag:{dict:['diamond_nugget']}},{Slot:3b,tag:{dict:['diamond_nugget']}},{Slot:10b,tag:{dict:['diamond_nugget']}},{Slot:11b,tag:{dict:['diamond_nugget']}},{Slot:12b,tag:{dict:['diamond_nugget']}},{Slot:19b,tag:{dict:['diamond_nugget']}},{Slot:20b,tag:{dict:['diamond_nugget']}},{Slot:21b,tag:{dict:['diamond_nugget']}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"月石",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:moon_shard'}},{Slot:2b,tag:{id:'cpp:moon_shard'}},{Slot:3b,tag:{id:'cpp:moon_shard'}},{Slot:10b,tag:{id:'cpp:moon_shard'}},{Slot:11b,tag:{id:'cpp:moon_shard'}},{Slot:12b,tag:{id:'cpp:moon_shard'}},{Slot:19b,tag:{id:'cpp:moon_shard'}},{Slot:20b,tag:{id:'cpp:moon_shard'}},{Slot:21b,tag:{id:'cpp:moon_shard'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"日石",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:sun_shard'}},{Slot:2b,tag:{id:'cpp:sun_shard'}},{Slot:3b,tag:{id:'cpp:sun_shard'}},{Slot:10b,tag:{id:'cpp:sun_shard'}},{Slot:11b,tag:{id:'cpp:sun_shard'}},{Slot:12b,tag:{id:'cpp:sun_shard'}},{Slot:19b,tag:{id:'cpp:sun_shard'}},{Slot:20b,tag:{id:'cpp:sun_shard'}},{Slot:21b,tag:{id:'cpp:sun_shard'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"蓝色天之力",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:blue_dye'},{Slot:3b,id:'minecraft:blue_dye'},{Slot:19b,id:'minecraft:blue_dye'},{Slot:21b,id:'minecraft:blue_dye'},{Slot:2b,id:'minecraft:coal'},{Slot:10b,id:'minecraft:coal'},{Slot:12b,id:'minecraft:coal'},{Slot:20b,id:'minecraft:coal'},{Slot:11b,tag:{id:'cpp:wing_of_sky'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"绿色水之力",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:green_dye'},{Slot:3b,id:'minecraft:green_dye'},{Slot:19b,id:'minecraft:green_dye'},{Slot:21b,id:'minecraft:green_dye'},{Slot:2b,id:'minecraft:redstone'},{Slot:10b,id:'minecraft:redstone'},{Slot:12b,id:'minecraft:redstone'},{Slot:20b,id:'minecraft:redstone'},{Slot:11b,tag:{id:'cpp:heart_of_crystal'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"青色山之力",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:cyan_dye'},{Slot:3b,id:'minecraft:cyan_dye'},{Slot:19b,id:'minecraft:cyan_dye'},{Slot:21b,id:'minecraft:cyan_dye'},{Slot:2b,id:'minecraft:iron_ingot'},{Slot:10b,id:'minecraft:iron_ingot'},{Slot:12b,id:'minecraft:iron_ingot'},{Slot:20b,id:'minecraft:iron_ingot'},{Slot:11b,tag:{id:'cpp:limb_of_ridge'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"橙色土之力",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:orange_dye'},{Slot:3b,id:'minecraft:orange_dye'},{Slot:19b,id:'minecraft:orange_dye'},{Slot:21b,id:'minecraft:orange_dye'},{Slot:2b,id:'minecraft:lapis_lazuli'},{Slot:10b,id:'minecraft:lapis_lazuli'},{Slot:12b,id:'minecraft:lapis_lazuli'},{Slot:20b,id:'minecraft:lapis_lazuli'},{Slot:11b,tag:{id:'cpp:soul_of_dirt'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"黄色地之力",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:yellow_dye'},{Slot:3b,id:'minecraft:yellow_dye'},{Slot:19b,id:'minecraft:yellow_dye'},{Slot:21b,id:'minecraft:yellow_dye'},{Slot:2b,id:'minecraft:gold_ingot'},{Slot:10b,id:'minecraft:gold_ingot'},{Slot:12b,id:'minecraft:gold_ingot'},{Slot:20b,id:'minecraft:gold_ingot'},{Slot:11b,tag:{id:'cpp:certification_of_earth'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"红色火之力",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:red_dye'},{Slot:3b,id:'minecraft:red_dye'},{Slot:19b,id:'minecraft:red_dye'},{Slot:21b,id:'minecraft:red_dye'},{Slot:2b,id:'minecraft:quartz'},{Slot:10b,id:'minecraft:quartz'},{Slot:12b,id:'minecraft:quartz'},{Slot:20b,id:'minecraft:quartz'},{Slot:11b,tag:{id:'cpp:nova_of_fire'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"紫色命之力",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:purple_dye'},{Slot:3b,id:'minecraft:purple_dye'},{Slot:19b,id:'minecraft:purple_dye'},{Slot:21b,id:'minecraft:purple_dye'},{Slot:2b,id:'minecraft:diamond'},{Slot:10b,id:'minecraft:diamond'},{Slot:12b,id:'minecraft:diamond'},{Slot:20b,id:'minecraft:diamond'},{Slot:11b,tag:{id:'cpp:spirit_of_life'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"白色电之力",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:white_dye'},{Slot:3b,id:'minecraft:white_dye'},{Slot:19b,id:'minecraft:white_dye'},{Slot:21b,id:'minecraft:white_dye'},{Slot:2b,id:'minecraft:emerald'},{Slot:10b,id:'minecraft:emerald'},{Slot:12b,id:'minecraft:emerald'},{Slot:20b,id:'minecraft:emerald'},{Slot:11b,id:'minecraft:nether_star'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"黑色月之力",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:black_dye'},{Slot:3b,id:'minecraft:black_dye'},{Slot:19b,id:'minecraft:black_dye'},{Slot:21b,id:'minecraft:black_dye'},{Slot:2b,id:'minecraft:glowstone_dust'},{Slot:10b,id:'minecraft:glowstone_dust'},{Slot:12b,id:'minecraft:glowstone_dust'},{Slot:20b,id:'minecraft:glowstone_dust'},{Slot:11b,id:'minecraft:dragon_egg'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"压缩器",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,id:'minecraft:piston'},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,tag:{id:'cpp:silicon_plate'}},{Slot:21b,tag:{id:'cpp:enchanted_iron'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"年长者之教诲",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,id:'minecraft:book'},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,tag:{id:'cpp:silicon_plate'}},{Slot:21b,tag:{id:'cpp:enchanted_iron'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"坐标记录仪",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,tag:{id:'cpp:enchanted_diamond'}},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,id:'minecraft:paper'},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,tag:{id:'cpp:silicon_plate'}},{Slot:21b,tag:{id:'cpp:enchanted_iron'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"消音器",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:iron_ingot'},{Slot:2b,id:'minecraft:flint'},{Slot:3b,id:'minecraft:iron_ingot'},{Slot:10b,id:'minecraft:iron_ingot'},{Slot:11b,id:'minecraft:wet_sponge'},{Slot:12b,id:'minecraft:iron_ingot'},{Slot:19b,id:'minecraft:iron_ingot'},{Slot:20b,id:'minecraft:iron_ingot'},{Slot:21b,id:'minecraft:iron_ingot'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"鞭炮",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:gunpowder'},{Slot:2b,id:'minecraft:string'},{Slot:3b,id:'minecraft:gunpowder'},{Slot:10b,id:'minecraft:paper'},{Slot:11b,id:'minecraft:string'},{Slot:12b,id:'minecraft:paper'},{Slot:19b,id:'minecraft:gunpowder'},{Slot:20b,id:'minecraft:string'},{Slot:21b,id:'minecraft:gunpowder'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"流星丸",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:wing_of_sky'}},{Slot:2b,tag:{id:'cpp:broom'}},{Slot:3b,tag:{id:'cpp:wing_of_sky'}},{Slot:10b,tag:{id:'cpp:wing_of_sky'}},{Slot:11b,id:'minecraft:elytra'},{Slot:12b,tag:{id:'cpp:wing_of_sky'}},{Slot:19b,tag:{id:'cpp:wing_of_sky'}},{Slot:20b,tag:{id:'cpp:wing_of_sky'}},{Slot:21b,tag:{id:'cpp:wing_of_sky'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"勤劳之手",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:rare_earth_glass'}},{Slot:2b,tag:{id:'cpp:enderman_head'}},{Slot:3b,tag:{id:'cpp:rare_earth_glass'}},{Slot:10b,tag:{id:'cpp:rare_earth_glass'}},{Slot:11b,id:'minecraft:netherite_hoe'},{Slot:12b,tag:{id:'cpp:rare_earth_glass'}},{Slot:19b,tag:{id:'cpp:reinforced_glass'}},{Slot:20b,id:'minecraft:experience_bottle'},{Slot:21b,tag:{id:'cpp:reinforced_glass'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"破坏之手",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:rare_earth_glass'}},{Slot:2b,tag:{id:'cpp:enderman_head'}},{Slot:3b,tag:{id:'cpp:rare_earth_glass'}},{Slot:10b,tag:{id:'cpp:rare_earth_glass'}},{Slot:11b,id:'minecraft:netherite_pickaxe'},{Slot:12b,tag:{id:'cpp:rare_earth_glass'}},{Slot:19b,tag:{id:'cpp:reinforced_glass'}},{Slot:20b,id:'minecraft:experience_bottle'},{Slot:21b,tag:{id:'cpp:reinforced_glass'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"灵巧之手",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:rare_earth_glass'}},{Slot:2b,tag:{id:'cpp:enderman_head'}},{Slot:3b,tag:{id:'cpp:rare_earth_glass'}},{Slot:10b,tag:{id:'cpp:rare_earth_glass'}},{Slot:11b,id:'minecraft:fishing_rod'},{Slot:12b,tag:{id:'cpp:rare_earth_glass'}},{Slot:19b,tag:{id:'cpp:reinforced_glass'}},{Slot:20b,id:'minecraft:experience_bottle'},{Slot:21b,tag:{id:'cpp:reinforced_glass'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"愤怒之手",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:rare_earth_glass'}},{Slot:2b,tag:{id:'cpp:enderman_head'}},{Slot:3b,tag:{id:'cpp:rare_earth_glass'}},{Slot:10b,tag:{id:'cpp:rare_earth_glass'}},{Slot:11b,id:'minecraft:netherite_sword'},{Slot:12b,tag:{id:'cpp:rare_earth_glass'}},{Slot:19b,tag:{id:'cpp:reinforced_glass'}},{Slot:20b,id:'minecraft:experience_bottle'},{Slot:21b,tag:{id:'cpp:reinforced_glass'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"历练之手",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:rare_earth_glass'}},{Slot:2b,tag:{id:'cpp:enderman_head'}},{Slot:3b,tag:{id:'cpp:rare_earth_glass'}},{Slot:10b,tag:{id:'cpp:rare_earth_glass'}},{Slot:11b,id:'minecraft:lead'},{Slot:12b,tag:{id:'cpp:rare_earth_glass'}},{Slot:19b,tag:{id:'cpp:reinforced_glass'}},{Slot:20b,id:'minecraft:experience_bottle'},{Slot:21b,tag:{id:'cpp:reinforced_glass'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"傀儡",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:experience_bottle'},{Slot:2b,id:'minecraft:zombie_head'},{Slot:3b,id:'minecraft:experience_bottle'},{Slot:10b,tag:{id:'cpp:silicon_plate'}},{Slot:11b,id:'minecraft:enchanted_golden_apple'},{Slot:12b,tag:{id:'cpp:silicon_plate'}},{Slot:19b,id:'minecraft:armor_stand'},{Slot:20b,id:'minecraft:netherite_boots'},{Slot:21b,id:'minecraft:armor_stand'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"附魔金苹果",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:enchanted_iron'}},{Slot:2b,id:'minecraft:enchanted_book'},{Slot:3b,tag:{id:'cpp:enchanted_iron'}},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,id:'minecraft:golden_apple'},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,tag:{id:'cpp:enchanted_diamond'}},{Slot:20b,id:'minecraft:experience_bottle'},{Slot:21b,tag:{id:'cpp:enchanted_diamond'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"拔丝苹果",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:sugar'},{Slot:2b,id:'minecraft:sugar'},{Slot:3b,id:'minecraft:sugar'},{Slot:10b,id:'minecraft:sugar'},{Slot:11b,id:'minecraft:apple'},{Slot:12b,id:'minecraft:sugar'},{Slot:19b,id:'minecraft:sugar'},{Slot:20b,id:'minecraft:sugar'},{Slot:21b,id:'minecraft:sugar'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"牛肉饺子",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:wheat'},{Slot:2b,id:'minecraft:wheat'},{Slot:3b,id:'minecraft:wheat'},{Slot:10b,id:'minecraft:wheat'},{Slot:11b,id:'minecraft:cooked_beef'},{Slot:12b,id:'minecraft:wheat'},{Slot:19b,id:'minecraft:wheat'},{Slot:20b,id:'minecraft:wheat'},{Slot:21b,id:'minecraft:wheat'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"猪肉饺子",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:wheat'},{Slot:2b,id:'minecraft:wheat'},{Slot:3b,id:'minecraft:wheat'},{Slot:10b,id:'minecraft:wheat'},{Slot:11b,id:'minecraft:cooked_porkchop'},{Slot:12b,id:'minecraft:wheat'},{Slot:19b,id:'minecraft:wheat'},{Slot:20b,id:'minecraft:wheat'},{Slot:21b,id:'minecraft:wheat'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"圣诞树",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:glowstone_dust'},{Slot:2b,id:'minecraft:snowball'},{Slot:3b,id:'minecraft:glowstone_dust'},{Slot:10b,id:'minecraft:glowstone_dust'},{Slot:11b,id:'minecraft:snowball'},{Slot:12b,id:'minecraft:glowstone_dust'},{Slot:19b,tag:{id:'cpp:poinsettia'}},{Slot:20b,id:'minecraft:spruce_sapling'},{Slot:21b,tag:{id:'cpp:poinsettia'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"封印之杖",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:enchanted_iron'}},{Slot:2b,tag:{id:'cpp:enchanted_gold'}},{Slot:3b,tag:{id:'cpp:enchanted_iron'}},{Slot:10b,tag:{id:'cpp:enchanted_gold'}},{Slot:11b,id:'minecraft:stick'},{Slot:12b,tag:{id:'cpp:enchanted_gold'}},{Slot:19b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,tag:{id:'cpp:enchanted_gold'}},{Slot:21b,tag:{id:'cpp:enchanted_iron'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"封印之杖",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:enchanted_gold'}},{Slot:2b,tag:{id:'cpp:enchanted_iron'}},{Slot:3b,tag:{id:'cpp:enchanted_gold'}},{Slot:10b,tag:{id:'cpp:enchanted_iron'}},{Slot:11b,id:'minecraft:stick'},{Slot:12b,tag:{id:'cpp:enchanted_iron'}},{Slot:19b,tag:{id:'cpp:enchanted_gold'}},{Slot:20b,tag:{id:'cpp:enchanted_iron'}},{Slot:21b,tag:{id:'cpp:enchanted_gold'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"星之杖",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:moon_shard'}},{Slot:2b,tag:{id:'cpp:sun_shard'}},{Slot:3b,tag:{id:'cpp:moon_shard'}},{Slot:10b,tag:{id:'cpp:sun_shard'}},{Slot:11b,tag:{id:'cpp:sealing_wand'}},{Slot:12b,tag:{id:'cpp:sun_shard'}},{Slot:19b,tag:{id:'cpp:moon_shard'}},{Slot:20b,tag:{id:'cpp:sun_shard'}},{Slot:21b,tag:{id:'cpp:moon_shard'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"星之杖",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:sun_shard'}},{Slot:2b,tag:{id:'cpp:moon_shard'}},{Slot:3b,tag:{id:'cpp:sun_shard'}},{Slot:10b,tag:{id:'cpp:moon_shard'}},{Slot:11b,tag:{id:'cpp:sealing_wand'}},{Slot:12b,tag:{id:'cpp:moon_shard'}},{Slot:19b,tag:{id:'cpp:sun_shard'}},{Slot:20b,tag:{id:'cpp:moon_shard'}},{Slot:21b,tag:{id:'cpp:sun_shard'}}]}"
+				}
+			}
+		},
+		{
+			"_comment":"梦之杖",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:dragon_egg'},{Slot:2b,id:'minecraft:nether_star'},{Slot:3b,id:'minecraft:dragon_egg'},{Slot:10b,id:'minecraft:nether_star'},{Slot:11b,tag:{id:'cpp:star_wand'}},{Slot:12b,id:'minecraft:nether_star'},{Slot:19b,id:'minecraft:dragon_egg'},{Slot:20b,id:'minecraft:nether_star'},{Slot:21b,id:'minecraft:dragon_egg'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"梦之杖",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:nether_star'},{Slot:2b,id:'minecraft:dragon_egg'},{Slot:3b,id:'minecraft:nether_star'},{Slot:10b,id:'minecraft:dragon_egg'},{Slot:11b,tag:{id:'cpp:star_wand'}},{Slot:12b,id:'minecraft:dragon_egg'},{Slot:19b,id:'minecraft:nether_star'},{Slot:20b,id:'minecraft:dragon_egg'},{Slot:21b,id:'minecraft:nether_star'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"节制器",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:stone'},{Slot:2b,id:'minecraft:stone'},{Slot:3b,id:'minecraft:stone'},{Slot:10b,id:'minecraft:stone'},{Slot:11b,id:'minecraft:experience_bottle'},{Slot:12b,id:'minecraft:stone'},{Slot:19b,id:'minecraft:stone'},{Slot:20b,id:'minecraft:stone'},{Slot:21b,id:'minecraft:stone'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"紫色美瞳",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:purple_dye'},{Slot:2b,id:'minecraft:purple_dye'},{Slot:3b,id:'minecraft:purple_dye'},{Slot:10b,id:'minecraft:ender_eye'},{Slot:11b,id:'minecraft:purple_dye'},{Slot:12b,id:'minecraft:ender_eye'},{Slot:19b,id:'minecraft:purple_dye'},{Slot:20b,id:'minecraft:purple_dye'},{Slot:21b,id:'minecraft:purple_dye'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"假睫毛",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:feather'},{Slot:2b,id:'minecraft:feather'},{Slot:3b,id:'minecraft:feather'},{Slot:10b,id:'minecraft:ender_eye'},{Slot:11b,id:'minecraft:feather'},{Slot:12b,id:'minecraft:ender_eye'},{Slot:19b,id:'minecraft:feather'},{Slot:20b,id:'minecraft:feather'},{Slot:21b,id:'minecraft:feather'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"猫胡子",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:feather'},{Slot:2b,id:'minecraft:stick'},{Slot:3b,id:'minecraft:feather'},{Slot:10b,id:'minecraft:feather'},{Slot:11b,id:'minecraft:stick'},{Slot:12b,id:'minecraft:feather'},{Slot:19b,id:'minecraft:feather'},{Slot:20b,id:'minecraft:stick'},{Slot:21b,id:'minecraft:feather'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"黑框眼镜",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:black_dye'},{Slot:2b,id:'minecraft:stick'},{Slot:3b,id:'minecraft:black_dye'},{Slot:10b,id:'minecraft:stick'},{Slot:11b,id:'minecraft:glass_pane'},{Slot:12b,id:'minecraft:stick'},{Slot:19b,id:'minecraft:black_dye'},{Slot:20b,id:'minecraft:stick'},{Slot:21b,id:'minecraft:black_dye'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"橙框眼镜",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:orange_dye'},{Slot:2b,id:'minecraft:stick'},{Slot:3b,id:'minecraft:orange_dye'},{Slot:10b,id:'minecraft:stick'},{Slot:11b,id:'minecraft:glass_pane'},{Slot:12b,id:'minecraft:stick'},{Slot:19b,id:'minecraft:orange_dye'},{Slot:20b,id:'minecraft:stick'},{Slot:21b,id:'minecraft:orange_dye'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"愚弄眼镜",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:feather'},{Slot:2b,id:'minecraft:stick'},{Slot:3b,id:'minecraft:feather'},{Slot:10b,id:'minecraft:stick'},{Slot:11b,id:'minecraft:glass_pane'},{Slot:12b,id:'minecraft:stick'},{Slot:19b,id:'minecraft:feather'},{Slot:20b,id:'minecraft:stick'},{Slot:21b,id:'minecraft:feather'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"小黄人眼罩",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:glass_pane'},{Slot:2b,id:'minecraft:glass_pane'},{Slot:3b,id:'minecraft:glass_pane'},{Slot:10b,id:'minecraft:ender_eye'},{Slot:11b,id:'minecraft:glass_pane'},{Slot:12b,id:'minecraft:ender_eye'},{Slot:19b,id:'minecraft:glass_pane'},{Slot:20b,id:'minecraft:glass_pane'},{Slot:21b,id:'minecraft:glass_pane'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"胖次",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:light_blue_wool'},{Slot:2b,id:'minecraft:light_blue_wool'},{Slot:3b,id:'minecraft:light_blue_wool'},{Slot:10b,id:'minecraft:white_wool'},{Slot:11b,id:'minecraft:white_wool'},{Slot:12b,id:'minecraft:white_wool'},{Slot:19b,id:'minecraft:light_blue_wool'},{Slot:20b,id:'minecraft:light_blue_wool'},{Slot:21b,id:'minecraft:light_blue_wool'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"冕旒",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:yellow_dye'},{Slot:2b,id:'minecraft:ender_pearl'},{Slot:3b,id:'minecraft:yellow_dye'},{Slot:10b,id:'minecraft:yellow_dye'},{Slot:11b,id:'minecraft:yellow_bed'},{Slot:12b,id:'minecraft:yellow_dye'},{Slot:19b,id:'minecraft:yellow_dye'},{Slot:20b,id:'minecraft:ender_pearl'},{Slot:21b,id:'minecraft:yellow_dye'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"烈焰红唇",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:redstone'},{Slot:2b,id:'minecraft:redstone'},{Slot:3b,id:'minecraft:redstone'},{Slot:10b,id:'minecraft:redstone'},{Slot:11b,id:'minecraft:magma_cream'},{Slot:12b,id:'minecraft:redstone'},{Slot:19b,id:'minecraft:redstone'},{Slot:20b,id:'minecraft:redstone'},{Slot:21b,id:'minecraft:redstone'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"花环",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:poppy'},{Slot:2b,id:'minecraft:dandelion'},{Slot:3b,id:'minecraft:poppy'},{Slot:10b,id:'minecraft:dandelion'},{Slot:11b,id:'minecraft:stick'},{Slot:12b,id:'minecraft:dandelion'},{Slot:19b,id:'minecraft:poppy'},{Slot:20b,id:'minecraft:dandelion'},{Slot:21b,id:'minecraft:poppy'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"日之碎片",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:netherite_scrap'},{Slot:2b,tag:{id:'cpp:moon_shard'}},{Slot:3b,id:'minecraft:netherite_scrap'},{Slot:10b,tag:{id:'cpp:moon_shard'}},{Slot:11b,id:'minecraft:ender_eye'},{Slot:12b,tag:{id:'cpp:moon_shard'}},{Slot:19b,id:'minecraft:netherite_scrap'},{Slot:20b,tag:{id:'cpp:moon_shard'}},{Slot:21b,id:'minecraft:netherite_scrap'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"纸杯蛋糕",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,tag:{id:'cpp:cherry'}},{Slot:2b,tag:{id:'cpp:cherry'}},{Slot:3b,tag:{id:'cpp:cherry'}},{Slot:10b,id:'minecraft:paper'},{Slot:11b,id:'minecraft:cake'},{Slot:12b,id:'minecraft:paper'},{Slot:19b,id:'minecraft:paper'},{Slot:20b,id:'minecraft:paper'},{Slot:21b,id:'minecraft:paper'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"甜甜圈",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:sugar'},{Slot:2b,id:'minecraft:wheat'},{Slot:3b,id:'minecraft:sugar'},{Slot:10b,id:'minecraft:wheat'},{Slot:11b,tag:{id:'cpp:butter'}},{Slot:12b,id:'minecraft:wheat'},{Slot:19b,id:'minecraft:sugar'},{Slot:20b,id:'minecraft:wheat'},{Slot:21b,id:'minecraft:sugar'}]}"
+				}
+			}
+		},
+		{
+			"_comment":"三明治",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:bread'},{Slot:2b,id:'minecraft:bread'},{Slot:3b,id:'minecraft:bread'},{Slot:10b,tag:{id:'cpp:bacon'}},{Slot:11b,tag:{id:'cpp:boiled_egg'}},{Slot:12b,tag:{id:'cpp:bacon'}},{Slot:19b,id:'minecraft:bread'},{Slot:20b,id:'minecraft:bread'},{Slot:21b,id:'minecraft:bread'}]}"
+				}
+			}
+		}
+	]
+}

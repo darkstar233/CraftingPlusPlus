@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"#cpp:golem_motion_blocks",
+		"#cpp:golem_end",
+		"minecraft:chest",
+		"minecraft:trapped_chest"
+	]
+}

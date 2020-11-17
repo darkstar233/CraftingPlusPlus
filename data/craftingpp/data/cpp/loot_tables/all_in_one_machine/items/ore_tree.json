@@ -1,0 +1,37 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type":"minecraft:loot_table",
+					"name": "cpp:misc/ore_leaves",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ore_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count":{
+								"min": 0,
+								"max": 3
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"_comment": "搬箱器",
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{Slot:1b,id:'minecraft:stick'},{Slot:3b,id:'minecraft:stick'},{Slot:10b,id:'minecraft:stick'},{Slot:12b,id:'minecraft:stick'},{Slot:11b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,tag:{id:'cpp:enchanted_iron'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:chest_transporter"
+						},
+						{
+							"_comment": "香囊",
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:red_wool'},{id:'minecraft:string'},{id:'minecraft:redstone'},{id:'minecraft:lilac'},{tag:{id:'cpp:artemisia_argyi'}},{tag:{id:'cpp:calamus'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:sachet"
+						},
+						{
+							"_comment": "蜂蜜煎饼",
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{id:'minecraft:honey_bottle'},{id:'minecraft:egg'},{id:'minecraft:wheat'},{tag:{id:'cpp:butter'}},{tag:{id:'cpp:blueberry'}},{id:'minecraft:bowl'}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:honey_pancake"
+						}
+					]
+				}
+			]
+		}
+	]
+}

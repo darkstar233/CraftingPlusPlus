@@ -1,0 +1,24 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "match_tool",
+			"predicate": {
+				"enchantments": [
+					{
+						"enchantment": "minecraft:silk_touch",
+						"levels": {
+							"min": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"condition": "match_tool",
+			"predicate": {
+				"nbt": "{id:'cpp:glass_pickaxe'}"
+			}
+		}
+	]
+}

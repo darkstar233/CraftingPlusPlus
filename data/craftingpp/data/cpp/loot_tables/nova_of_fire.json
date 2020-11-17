@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.nova_of_fire\"}'},id:'cpp:nova_of_fire',CustomModelData:12970103}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

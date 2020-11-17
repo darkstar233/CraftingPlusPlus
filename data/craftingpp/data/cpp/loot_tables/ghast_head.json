@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.ghast_head\"}'},id:'cpp:ghast_head',dict:['head_decor'],CustomModelData:12976224}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

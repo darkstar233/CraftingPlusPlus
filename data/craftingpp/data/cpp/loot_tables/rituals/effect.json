@@ -1,0 +1,294 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_agileness'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.speed\"}']},cppStoredEffects:[{id:'speed'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_extremeness'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.haste\"}']},cppStoredEffects:[{id:'haste'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_sharpness'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.strength\"}']},cppStoredEffects:[{id:'strength'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_bounce'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.jump_boost\"}']},cppStoredEffects:[{id:'jump_boost'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_rejuveness'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.regeneration\"}']},cppStoredEffects:[{id:'regeneration'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_shield'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.resistance\"}']},cppStoredEffects:[{id:'resistance'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_fire_shield'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.fire_resistance\"}']},cppStoredEffects:[{id:'fire_resistance'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_waterless'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.water_breathing\"}']},cppStoredEffects:[{id:'water_breathing'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_transparentness'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.invisibility\"}']},cppStoredEffects:[{id:'invisibility'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_eyesight'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.night_vision\"}']},cppStoredEffects:[{id:'night_vision'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:cold_drink'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.saturation\"}']},cppStoredEffects:[{id:'saturation'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_lightness'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.slow_falling\"}']},cppStoredEffects:[{id:'slow_falling'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_tide'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.conduit_power\"}']},cppStoredEffects:[{id:'conduit_power'}]}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "location_check",
+									"predicate": {
+										"block": {
+											"nbt": "{Items:[{tag:{id:'cpp:agentia_of_chain'}}]}"
+										}
+									}
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{display:{Lore:['{\"italic\":false,\"translate\":\"lore.cpp.stored_effects.chain\"}']},cppStoredEffects:[{id:'chain'}]}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

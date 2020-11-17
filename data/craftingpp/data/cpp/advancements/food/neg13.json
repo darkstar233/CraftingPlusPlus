@@ -1,0 +1,38 @@
+{
+	"criteria": {
+		"vegetable_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:vegetable_kebab'}"
+				}
+			}
+		},
+		"candied_haw": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:candied_haw'}"
+				}
+			}
+		},
+		"zongzi_chinese_date": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:zongzi.chinese_date'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"vegetable_kebab",
+			"candied_haw",
+			"zongzi_chinese_date"
+		]
+	],
+	"rewards":{
+		"function": "cpp:food/neg13"
+	}
+}

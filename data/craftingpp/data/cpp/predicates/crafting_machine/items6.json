@@ -1,0 +1,32 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"_comment": "搬箱器",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{Slot:1b,id:'minecraft:stick'},{Slot:3b,id:'minecraft:stick'},{Slot:10b,id:'minecraft:stick'},{Slot:12b,id:'minecraft:stick'},{Slot:11b,tag:{id:'cpp:enchanted_iron'}},{Slot:20b,tag:{id:'cpp:enchanted_iron'}}]}"
+				}
+			}
+		},
+		{
+			"_comment": "香囊",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:red_wool'},{id:'minecraft:string'},{id:'minecraft:redstone'},{id:'minecraft:lilac'},{tag:{id:'cpp:artemisia_argyi'}},{tag:{id:'cpp:calamus'}}]}"
+				}
+			}
+		},
+		{
+			"_comment": "蜂蜜煎饼",
+			"condition": "location_check",
+			"predicate": {
+				"block": {
+					"nbt": "{Items:[{id:'minecraft:honey_bottle'},{id:'minecraft:egg'},{id:'minecraft:wheat'},{tag:{id:'cpp:butter'}},{tag:{id:'cpp:blueberry'}},{id:'minecraft:bowl'}]}"
+				}
+			}
+		}
+	]
+}

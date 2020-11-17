@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.fox_head.snow\"}'},id:'cpp:fox_head.snow',dict:['head_decor','fox_head'],CustomModelData:12976218}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

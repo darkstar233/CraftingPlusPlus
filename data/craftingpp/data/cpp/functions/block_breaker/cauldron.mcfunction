@@ -1,0 +1,2 @@
+execute if entity @e[type=item,distance=..1,predicate=cpp:item/cobblestone4] run function cpp:block_breaker/lava
+execute if entity @e[type=item,distance=..1,predicate=cpp:item/snowball4] run function cpp:block_breaker/water

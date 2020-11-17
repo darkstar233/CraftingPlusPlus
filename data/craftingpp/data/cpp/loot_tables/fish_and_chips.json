@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.fish_and_chips\"}',Lore:['[{\"italic\":false,\"translate\":\"effect.minecraft.speed\",\"color\":\"blue\"},{\"text\":\" (0:30)\"}]','\" \"','{\"italic\":false,\"translate\":\"potion.whenDrank\"}','[{\"text\":\"+20% \",\"italic\":false,\"color\":\"blue\"},{\"italic\":false,\"translate\":\"attribute.name.generic.movement_speed\"}]']},id:'cpp:fish_and_chips',CustomModelData:12970009,Effects:[{EffectDuration:600,EffectId:1b}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

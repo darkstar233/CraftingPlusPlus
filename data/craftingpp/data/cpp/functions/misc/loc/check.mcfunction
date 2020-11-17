@@ -1,0 +1,9 @@
+execute if score #block_id cppValue matches 3 if block ~ ~ ~ white_wool run tag @s add cpp_loc_block_pos_pot
+execute if score #block_id cppValue matches 4 if block ~ ~ ~ carved_pumpkin run tag @s add cpp_loc_block_pos_pot
+execute if score #block_id cppValue matches 7 if block ~ ~ ~ #campfires run tag @s add cpp_loc_block_pos_pot
+execute if score #block_id cppValue matches 8 if block ~ ~ ~ blast_furnace run tag @s add cpp_loc_block_pos_pot
+execute if score #block_id cppValue matches 9 if block ~ ~ ~ smoker run tag @s add cpp_loc_block_pos_pot
+execute if score #block_id cppValue matches 10 if block ~ ~ ~ furnace run tag @s add cpp_loc_block_pos_pot
+execute if score #block_id cppValue matches 12 if block ~ ~ ~ grass run tag @s add cpp_loc_block_pos_pot
+execute if score #block_id cppValue matches 13 if block ~ ~ ~ snow_block run tag @s add cpp_loc_block_pos_pot
+execute if score #block_id cppValue matches 14 if block ~ ~ ~ fire run tag @s add cpp_loc_block_pos_pot

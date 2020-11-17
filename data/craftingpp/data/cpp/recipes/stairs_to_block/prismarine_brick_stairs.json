@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "stairs_to_block",
+	"pattern": [
+		"ss",
+		"ss"
+	],
+	"key": {
+		"s": {
+			"item": "minecraft:prismarine_brick_stairs"
+		}
+	},
+	"result": {
+		"item": "minecraft:prismarine_bricks",
+		"count": 4
+	}
+}

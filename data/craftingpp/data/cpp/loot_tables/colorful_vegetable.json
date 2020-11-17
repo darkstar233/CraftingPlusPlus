@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.colorful_vegetable\"}',Lore:['[{\"italic\":false,\"translate\":\"effect.minecraft.jump_boost\",\"color\":\"blue\"},{\"text\":\" (0:30)\"}]']},id:'cpp:colorful_vegetable',CustomModelData:12970002,Effects:[{EffectDuration:600,EffectId:8b}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"ultrawarm": false,
+	"natural": false,
+	"has_skylight": true,
+	"has_ceiling": false,
+	"ambient_light": 1,
+	"fixed_time": 6000,
+	"coordinate_scale": 1, 
+	"piglin_safe": false,
+	"bed_works": true,
+	"respawn_anchor_works": true,
+	"has_raids": false,
+	"logical_height": 256,
+	"infiniburn": "cpp:empty"
+}

@@ -1,0 +1,27 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand":{
+						"nbt": "{id:'cpp:broom'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand":{
+						"nbt": "{id:'cpp:broom'}"
+					}
+				}
+			}
+		}
+	]
+}

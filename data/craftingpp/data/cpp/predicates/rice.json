@@ -1,0 +1,97 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "location_check",
+			"offsetX": 1,
+			"offsetY": -1,
+			"predicate":{
+				"block": {
+					"tag": "cpp:waterlogged",
+					"state": {
+						"waterlogged": true
+					}
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"offsetX": -1,
+			"offsetY": -1,
+			"predicate":{
+				"block": {
+					"tag": "cpp:waterlogged",
+					"state": {
+						"waterlogged": true
+					}
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"offsetZ": 1,
+			"offsetY": -1,
+			"predicate":{
+				"block": {
+					"tag": "cpp:waterlogged",
+					"state": {
+						"waterlogged": true
+					}
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"offsetZ": -1,
+			"offsetY": -1,
+			"predicate":{
+				"block": {
+					"tag": "cpp:waterlogged",
+					"state": {
+						"waterlogged": true
+					}
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"offsetX": 1,
+			"offsetY": -1,
+			"predicate":{
+				"block": {
+					"tag": "cpp:in_water"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"offsetX": -1,
+			"offsetY": -1,
+			"predicate":{
+				"block": {
+					"tag": "cpp:in_water"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"offsetZ": 1,
+			"offsetY": -1,
+			"predicate":{
+				"block": {
+					"tag": "cpp:in_water"
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"offsetZ": -1,
+			"offsetY": -1,
+			"predicate":{
+				"block": {
+					"tag": "cpp:in_water"
+				}
+			}
+		}
+	]
+}

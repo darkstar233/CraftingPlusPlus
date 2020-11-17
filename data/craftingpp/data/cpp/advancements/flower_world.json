@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:acacia_sapling",
+			"nbt":"{CustomModelData:12971502}"
+		},
+		"title":{
+			"translate": "advancements.cpp.flower_world.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.flower_world.description"
+		}
+	},
+	"parent": "cpp:forgive",
+	"criteria": {
+		"flower_world": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "cpp:flower"
+			}
+		}
+	}
+}

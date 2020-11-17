@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.rabbit_head.gold\"}'},id:'cpp:rabbit_head.gold',dict:['head_decor','rabbit_head'],CustomModelData:12976294}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

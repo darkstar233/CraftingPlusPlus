@@ -1,0 +1,49 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand":{
+						"nbt": "{id:'cpp:magnet'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand":{
+						"nbt": "{id:'cpp:magnet_closed'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand":{
+						"nbt": "{id:'cpp:temperancer'}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand":{
+						"nbt": "{id:'cpp:temperancer_closed'}"
+					}
+				}
+			}
+		}
+	]
+}

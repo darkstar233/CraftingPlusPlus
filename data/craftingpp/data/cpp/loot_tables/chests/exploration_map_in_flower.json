@@ -1,0 +1,77 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "Buried_Treasure",
+							"decoration": "red_x",
+							"zoom": 1,
+							"skip_existing_chunks": true
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{MapColor:11830110,Name:'{\"italic\":false,\"translate\":\"filled_map.buried_treasure\"}'}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "Ocean_Ruin",
+							"decoration": "red_x",
+							"zoom": 1,
+							"skip_existing_chunks": true
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{MapColor:13081344,Name:'{\"italic\":false,\"translate\":\"filled_map.ocean_ruins\"}'}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "Shipwreck",
+							"decoration": "red_x",
+							"zoom": 1,
+							"skip_existing_chunks": true
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{MapColor:7100513,Name:'{\"italic\":false,\"translate\":\"filled_map.shipwreck\"}'}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "Ruined_Portal",
+							"decoration": "red_x",
+							"zoom": 1,
+							"skip_existing_chunks": true
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{MapColor:3544084,Name:'{\"italic\":false,\"translate\":\"filled_map.ruined_portal\"}'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

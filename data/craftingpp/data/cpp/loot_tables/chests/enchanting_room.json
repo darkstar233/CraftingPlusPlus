@@ -1,0 +1,90 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 1.0,
+				"max": 3.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 3.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:paper",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2.0,
+								"max": 7.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:compass",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:chests/exploration_map_in_flower",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.fortune"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.looting"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.sweeping"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.lure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.unbreaking"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.respiration"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.sharpness"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cpp:ancient_scroll.power"
+				}
+			]
+		}
+	]
+}

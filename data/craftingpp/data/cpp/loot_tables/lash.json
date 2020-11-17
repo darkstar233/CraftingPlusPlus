@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.lash\"}',color:16777215},id:'cpp:lash',dict:['head_decor'],CustomModelData:12976013}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

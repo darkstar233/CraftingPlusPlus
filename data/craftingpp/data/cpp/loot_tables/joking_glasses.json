@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.cpp.joking_glasses\"}',color:16777215},id:'cpp:joking_glasses',dict:['head_decor'],CustomModelData:12976026,cppHatSlot:'hand'}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

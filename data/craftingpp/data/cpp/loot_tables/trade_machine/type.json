@@ -1,0 +1,2304 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:nether_star'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:elytra'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:dragon_egg'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:65536}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{tag:{id:'cpp:broken_spawner'}}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:diamond_horse_armor'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:heart_of_the_sea'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:netherite_ingot'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:trident'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:dragon_head'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:16384}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:diamond'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_11'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_13'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_blocks'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_cat'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_chirp'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_far'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_mall'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_mellohi'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_stal'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_strad'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_ward'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_wait'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:music_disc_pigstep'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:totem_of_undying'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:8192}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{tag:{id:'cpp:wing_of_sky'}}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{tag:{id:'cpp:heart_of_crystal'}}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{tag:{id:'cpp:limb_of_ridge'}}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{tag:{id:'cpp:soul_of_dirt'}}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{tag:{id:'cpp:certification_of_earth'}}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{tag:{id:'cpp:nova_of_fire'}}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{tag:{id:'cpp:spirit_of_life'}}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:lava_bucket'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:iron_horse_armor'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:golden_horse_armor'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:nautilus_shell'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:name_tag'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{tag:{id:'cpp:shard_of_the_darkness'}}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:2880}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:emerald'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:2048}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:sponge'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:crying_obsidian'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:scute'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:iron_ingot'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:gold_ingot'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:lapis_lazuli'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:rabbit_foot'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:book'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:written_book'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:enchanted_book'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:honeycomb'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:720}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:shulker_shell'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:spider_eye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:poisonous_potato'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:phantom_membrane'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:shroomlight'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:360}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:crimson_stem'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:warped_stem'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:slime_ball'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:honey_bottle'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:magma_cream'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:180}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:melon'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:pumpkin'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:sea_lantern'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:white_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:orange_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:magenta_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:light_blue_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:yellow_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:lime_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:pink_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:gray_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:light_gray_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cyan_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:purple_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:blue_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:brown_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:green_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:red_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:black_wool'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:coal'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:charcoal'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:leather'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:apple'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:redstone'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:glowstone_dust'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:144}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:obsidian'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:purpur_block'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:nether_wart_block'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:warped_wart_block'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:chorus_fruit'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:beef'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:porkchop'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:mutton'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:chicken'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:rabbit'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cooked_beef'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cooked_porkchop'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cooked_mutton'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cooked_chicken'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cooked_rabbit'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:bow'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:fishing_rod'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:crossbow'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:ghast_tear'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:128}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:tube_coral'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:brain_coral'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:bubble_coral'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:fire_coral'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:horn_coral'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:tube_coral_fan'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:brain_coral_fan'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:bubble_coral_fan'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:fire_coral_fan'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:horn_coral_fan'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:string'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:feather'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:gunpowder'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:wheat'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:egg'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:ink_sac'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:bone'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:ender_pearl'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:blaze_rod'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:quartz'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:prismarine_crystals'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:beetroot'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:chorus_fruit'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:rotten_flesh'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:96}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:sea_pickle'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:dandelion'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:poppy'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:blue_orchid'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:allium'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:azure_bluet'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:red_tulip'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:orange_tulip'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:white_tulip'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:pink_tulip'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:oxeye_daisy'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cornflower'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:lily_of_the_valley'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:wither_rose'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:sunflower'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:lilac'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:rose_bush'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:peony'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:brown_mushroom'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:red_mushroom'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cactus'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:sugar_cane'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:vine'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:lily_pad'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:clay_ball'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:kelp'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cocoa_beans'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:nether_wart'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:prismarine_shard'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:sweet_berries'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:72}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:blue_ice'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:potato'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:carrot'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:bowl'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:bamboo'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:white_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:orange_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:magenta_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:light_blue_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:yellow_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:lime_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:pink_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:gray_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:light_gray_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cyan_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:purple_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:blue_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:brown_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:green_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:red_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:black_dye'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:arrow'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:rabbit_hide'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:prismarine'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:prismarine_bricks'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:dark_prismarine'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cod'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:salmon'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:tropical_fish'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:pufferfish'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:48}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:packed_ice'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:melon_slice'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:stick'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:16}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:soul_sand'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:white_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:orange_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:magenta_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:light_blue_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:yellow_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:lime_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:pink_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:gray_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:light_gray_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cyan_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:purple_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:blue_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:brown_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:green_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:red_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:black_terracotta'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:oak_sapling'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:spruce_sapling'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:birch_sapling'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:jungle_sapling'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:acacia_sapling'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:dark_oak_sapling'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:crimson_fungus'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:warped_fungus'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:wheat_seeds'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:beetroot_seeds'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:8}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:sandstone'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:red_sandstone'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:soul_soil'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:magma_block'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:flint'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:nether_bricks'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:4}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:granite'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:diorite'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:andesite'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:crimson_nylium'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:warped_nylium'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:gravel'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:basalt'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:crimson_roots'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:warped_roots'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:nether_sprouts'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:2}"
+								}
+							]
+						},
+						{
+							"conditions": [
+								{
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:stone'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:dirt'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:grass_block'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:cobblestone'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:smooth_stone'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:netherrack'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:nether_brick'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:sand'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:red_sand'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:end_stone'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:dead_bush'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:snowball'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:weeping_vines'}]}"
+												}
+											}
+										},
+										{
+											"condition": "location_check",
+											"predicate": {
+												"block": {
+													"nbt": "{Items:[{id:'minecraft:twisting_vines'}]}"
+												}
+											}
+										}
+									]
+								}
+							],
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{cppTradeValue:1}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

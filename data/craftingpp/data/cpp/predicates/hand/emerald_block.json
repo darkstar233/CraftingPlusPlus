@@ -1,0 +1,27 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand":{
+						"item": "minecraft:emerald_block"
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand":{
+						"item": "minecraft:emerald_block"
+					}
+				}
+			}
+		}
+	]
+}

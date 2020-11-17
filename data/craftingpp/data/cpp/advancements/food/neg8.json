@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"cake_roll": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:cake_roll'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"cake_roll"
+		]
+	],
+	"rewards":{
+		"function": "cpp:food/neg8"
+	}
+}

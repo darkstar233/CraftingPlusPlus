@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanted_golden_apple"
+		},
+		"title":{
+			"translate": "advancements.cpp.fat.title"
+		},
+		"description": {
+			"translate": "advancements.cpp.fat.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "cpp:dream_wand",
+	"criteria": {
+		"fat": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "entity_scores",
+						"entity": "this",
+						"scores": {
+							"cppHealth": {
+								"min": 40,
+								"max": 2147483647
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

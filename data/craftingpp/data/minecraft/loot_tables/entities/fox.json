@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "minecraft:reference",
+					"name": "cpp:rare_drop"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Type:\"red\"}"
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:fox_head.red"
+						},
+						{
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Type:\"snow\"}"
+									}
+								}
+							],
+							"type": "minecraft:loot_table",
+							"name": "cpp:fox_head.snow"
+						}
+					]
+				}
+			]
+		}
+	]
+}

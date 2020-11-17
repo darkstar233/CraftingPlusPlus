@@ -1,0 +1,47 @@
+{
+	"criteria": {
+		"rotten_flesh": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:rotten_flesh"
+				}
+			}
+		},
+		"boiled_egg": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:boiled_egg'}"
+				}
+			}
+		},
+		"butter": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:butter'}"
+				}
+			}
+		},
+		"cheese": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:cheese'}"
+				}
+			}
+		}
+	},
+	"requirements":[
+		[
+			"rotten_flesh",
+			"boiled_egg",
+			"butter",
+			"cheese"
+		]
+	],
+	"rewards":{
+		"function": "cpp:food/pos4"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "killed_by_player"
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "killer",
+			"predicate": {
+				"type": "minecraft:armor_stand"
+			} 
+		}
+	]
+}

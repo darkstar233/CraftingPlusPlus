@@ -1,0 +1,47 @@
+{
+	"criteria": {
+		"colorful_vegetable": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:colorful_vegetable'}"
+				}
+			}
+		},
+		"beef_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:beef_kebab'}"
+				}
+			}
+		},
+		"pork_kebab": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:pork_kebab'}"
+				}
+			}
+		},
+		"christmas_roast_chicken": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{id:'cpp:christmas_roast_chicken'}"
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function": "cpp:food/add8"
+	},
+	"requirements": [
+		[
+			"colorful_vegetable",
+			"beef_kebab",
+			"pork_kebab",
+			"christmas_roast_chicken"
+		]
+	]
+}
